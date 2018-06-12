@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="Yara" ext="yara" udlVersion="2.1">
+    <UserLang name="Yara" ext="yara yar" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -25,7 +25,7 @@
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
             <Keywords name="Keywords1">&quot;private&quot; &quot;rule&quot;</Keywords>
-            <Keywords name="Keywords2">&quot;meta:&quot; &quot;desc&quot; &quot;description&quot; &quot;auth&quot; &quot;author&quot; &quot;date&quot; &quot;ref&quot; &quot;reference&quot; &quot;maltype&quot; &quot;type&quot; &quot;url&quot; &quot;uri&quot; &quot;os&quot; &quot;filetype&quot; &quot;md5&quot; &quot;sha&quot; &quot;sha1&quot; &quot;sha2&quot; &quot;sha3&quot; &quot;sha256&quot; &quot;family&quot; &quot;malfamily&quot; &quot;arch&quot; &quot;hash&quot; &quot;hash1&quot; &quot;hash2&quot; &quot;hash3&quot;</Keywords>
+            <Keywords name="Keywords2">&quot;meta:&quot; &quot;desc&quot; &quot;description&quot; &quot;auth&quot; &quot;author&quot; &quot;date&quot; &quot;ref&quot; &quot;reference&quot; &quot;maltype&quot; &quot;type&quot; &quot;url&quot; &quot;uri&quot; &quot;os&quot; &quot;filetype&quot; &quot;md5&quot; &quot;sha&quot; &quot;sha1&quot; &quot;sha2&quot; &quot;sha3&quot; &quot;sha256&quot; &quot;family&quot; &quot;malfamily&quot; &quot;arch&quot; &quot;hash&quot; &quot;hash1&quot; &quot;hash2&quot; &quot;hash3&quot; &quot;sid&quot; &quot;rev&quot; &quot;last_modified&quot;</Keywords>
             <Keywords name="Keywords3">&quot;strings:&quot; &quot;$&quot; &quot;nocase&quot; &quot;ascii&quot; &quot;wide&quot; &quot;fullword&quot; &quot;($&quot;</Keywords>
             <Keywords name="Keywords4">&quot;condition:&quot; &quot;all of&quot; &quot;any of&quot; &quot;for any of&quot; &quot;of them&quot; &quot;for all&quot; &quot;all of them&quot; &quot;any of them&quot; &quot;(all of them)&quot; &quot;(any of them)&quot; &quot;(all of&quot; &quot;(any of&quot; &quot;of&quot; &quot;(&quot; &quot;)&quot; &quot;??&quot; &quot;(1&quot; &quot;(2&quot; &quot;(3&quot; &quot;(4&quot; &quot;(5&quot; &quot;(6&quot; &quot;(7&quot; &quot;(8&quot; &quot;(9&quot; &quot;(10&quot; &quot;(11&quot; &quot;(12&quot; &quot;(13&quot; &quot;(14&quot; &quot;(15&quot; &quot;(16&quot; &quot;uint16&quot; &quot;uint32&quot; &quot;uint16(0)&quot; &quot;uint32(0)&quot; &quot;uint16le(0)&quot; &quot;uint16be(0)&quot; &quot;uint32le(0)&quot; &quot;uint32be(0)&quot; &quot;filesize&quot;</Keywords>
             <Keywords name="Keywords5">&quot;and&quot; &quot;or&quot; &quot;of&quot; &quot;not&quot; &quot;at&quot; &quot;==&quot; &quot;&gt;&quot; &quot;&lt;&quot; &quot;!&quot;</Keywords>
